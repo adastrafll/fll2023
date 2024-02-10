@@ -1,0 +1,15 @@
+:root{
+    --body-color: #f6f9ff;
+    --nav-color: #3d4047;
+    --side-nav: #010718;
+    --text-color: #82d9e1;
+    --search-bar: #000000;
+    --search-text: #010718;
+}
+body.dark{
+    --body-color: #18191A;
+    --nav-color: #242526;
+    --side-nav: #242526;
+    --text-color: #28364a;
+    --search-bar: #242526;
+}
