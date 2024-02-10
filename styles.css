@@ -6,15 +6,15 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     transition: all 0.4s ease;;
-    --body-color: #ffffff;
+    --body-color: #9c9595;
 }
  /* ===== Colours ===== */
 :root{
     --body-color: #E4E9F7;
-    --nav-color: #4070F4;
+    --nav-color: #3d4047;
     --side-nav: #010718;
-    --text-color: #FFF;
-    --search-bar: #F2F2F2;
+    --text-color: #82d9e1;
+    --search-bar: #000000;
     --search-text: #010718;
 }
 body{
@@ -25,7 +25,7 @@ body.dark{
     --body-color: #18191A;
     --nav-color: #242526;
     --side-nav: #242526;
-    --text-color: #CCC;
+    --text-color: #28364a;
     --search-bar: #242526;
 }
 nav{
