@@ -26,3 +26,7 @@ const setTheme = (theme) => {
     const icon = theme === 'dark' ? 'bx-sun' : 'bx-moon';
     themeIcon.classList.add(icon);
 };
+const onLogout = () => {
+    localStorage.removeItem('user');
+    window.location.href = '/';
+}
