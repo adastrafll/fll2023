@@ -1,15 +1,19 @@
-:root{
-    --body-color: #f6f9ff;
-    --nav-color: #3d4047;
-    --side-nav: #010718;
-    --text-color: #82d9e1;
-    --search-bar: #000000;
-    --search-text: #010718;
+:root {
+    --nav-height: 70px;
 }
-body.dark{
-    --body-color: #18191A;
-    --nav-color: #242526;
-    --side-nav: #242526;
-    --text-color: #28364a;
-    --search-bar: #242526;
+
+:root{
+    --body-color: hsl(0, 0%, 90%);
+    --font-color: hsl(0, 0%, 5%);
+    --nav-color: hsl(275, 100%, 25%);
+    --nav-font: hsl(0, 0%, 95%);
+    --search-panel: hsl(0, 0%, 95%);
+}
+
+body[data-theme="dark"] {
+    --body-color: hsl(0, 0%, 5%);
+    --font-color: hsl(0, 0%, 95%);
+    --nav-color: hsl(275, 100%, 25%);
+    --nav-font: hsl(0, 0%, 95%);
+    --search-panel: hsl(0, 0%, 10%);
 }
