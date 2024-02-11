@@ -8,6 +8,7 @@
     --nav-color: hsl(275, 100%, 25%);
     --nav-font: hsl(0, 0%, 95%);
     --search-panel: hsl(0, 0%, 95%);
+    --card-color: hsl(0, 0%, 100%);
 }
 
 body[data-theme="dark"] {
@@ -16,4 +17,6 @@ body[data-theme="dark"] {
     --nav-color: hsl(275, 100%, 25%);
     --nav-font: hsl(0, 0%, 95%);
     --search-panel: hsl(0, 0%, 10%);
+    --card-color: hsl(0, 0%, 15%);
+
 }
