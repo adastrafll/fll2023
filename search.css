@@ -1,6 +1,12 @@
 /* FILEPATH: /c:/Users/saten/Documents/GitHub/fll2023/search.css */
 
 /* Styling for search result container */
+.search-container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 100px;
+}
+
 .search-result {
   margin-bottom: 20px;
   padding: 10px;

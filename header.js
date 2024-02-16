@@ -18,6 +18,13 @@ const onSearch = () => {
     const search = document.querySelector('.search-panel');
     search.classList.toggle('active');
 }
+const onSearchEnter = (e) => {
+    if (e.key === 'Enter') {
+        const search = document.querySelector('.search-panel');
+        search.classList.remove('active');
+        window.location.href = `/search.html?query=${e.target.value}`;
+    }
+}
 
 const setTheme = (theme) => {
     document.querySelector('body').dataset.theme = theme;
