@@ -11,7 +11,7 @@ const onSubmit = (e) => {
 
 const login = (email, password) => {
   email=email.toLowerCase();
-  switch(email) {
+  switch(email){
     case 'anishhaha3@gmail.com': 
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
       window.location.href = '/anish/home.html';
