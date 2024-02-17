@@ -4,18 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Profile Page</title>
+    <title>No</title>
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
     <!-- CSS -->
+    <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="prototypeprof.css" />
   </head>
   <body>
     <div class="header__wrapper">
-      <header></header>
+<header>
+    <nav>
+        <button class="button-icon menu" onclick="onMenuToggle()">
+            <i class='bx bx-menu'></i>
+        </button>
+
+        <div class="branding">
+            <a href="home.html">HobbyBazaar</a>
+        </div>
+        
+        <ul class="links">
+            <li><a href="project.html">My Projects</a></li>
+            <li><a href="group.html">My Groups</a></li>
+            <li><a href="#">About Me</a></li>
+        </ul>
+        
+        <div class="buttons">
+            <button class="button-icon theme" onclick="onThemeToggle()">
+                <i class='theme-icon bx'></i>
+            </button>
+            <div class="search">
+                <button class="button-icon" onclick="onSearch()">
+                    <i class='bx bx-search'></i>
+                </button>
+                <div class="search-panel">
+                    <input type="text" placeholder="search..." onkeypress="onSearchEnter(event)">
+                    <!-- <i class='bx bx-search'></i> -->
+                </div>
+            </div>
+          
+            <button class="button-icon" title="Your Majesty RishikTheGreatest" onclick="window.location.href='prototypeprof.html'">
+                <i class='bx bx-user'></i>
+            </button>
+            <button class="button-icon" title="Logout"  onclick="onLogout()">
+                <i class='bx bx-log-out'></i>
+            </button>
+        </div>
+    </nav> 
+    <br>
+    <br>
+    <br>
+    <br>
       <div class="cols__container">
         <div class="left__col">
           <div class="img__container">
@@ -30,8 +72,8 @@
 
           <ul class="about">
             <li><span>Music and Chess</span>Specializations</li>
-            <li><span>322</span>Groups</li>
-            <li><span>400</span>Projects</li>
+            <li><span>5</span>Groups</li>
+            <li><span>42</span>Projects</li>
           </ul>
 
           <div class="content">
@@ -47,28 +89,14 @@
             </ul>
           </div>
         </div>
-        <div class="right__col">
-            
-          <nav>
-            <ul>
-              <li><a href="">Projects</a></li>
-              <li><a href="">galleries</a></li>
-              <li><a href="">groups</a></li>
-              <li><a href="">about</a></li>
-            </ul>
-            <button>Chat</button>
-          </nav>
-
-          <div class="photos">
-            <img src="img_1.avif" alt="Photo" />
-            <img src="img_2.avif" alt="Photo" />
-            <img src="img_3.avif" alt="Photo" />
-            <img src="img_4.avif" alt="Photo" />
-            <img src="img_5.avif" alt="Photo" />
-            <img src="img_6.avif" alt="Photo" />
           </div>
         </div>
       </div>
     </div>
+</header>
+<div class="rightside">
+    <h2>Anish</h2>
+    <h4>monkey_boy</h4>
+</div>
   </body>
 </html>
