@@ -192,3 +192,16 @@ a {
     margin-top: 0;
   }
 }
+.rightside{
+    margin-left: 500px;
+    margin-top: -500px;
+    border: 40px solid #0091ff;
+    border-radius: 10%;
+    display: inline-block;
+}
+.rightside h4{
+    display: grid;
+    color: #1d1d1d;
+    font-weight: 60;
+    margin-bottom: 5px;
+}
