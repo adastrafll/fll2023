@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ===== CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../styles.css">
+
+     <title>HobbyBazaar! The One Place To Share Your Hobbies!</title>
+</head>
+<body onload="onInit()">
+<header>
+    <nav>
+        <button class="button-icon menu" onclick="onMenuToggle()">
+            <i class='bx bx-menu'></i>
+        </button>
+
+        <div class="branding">
+            <a href="./home.html">HobbyBazaar</a>
+        </div>
+        
+        <ul class="links">
+            <li><a href="./project.html">My Projects</a></li>
+            <li><a href="./group.html">My Groups</a></li>
+            <li><a href="#">About Me</a></li>
+        </ul>
+        
+        <div class="buttons">
+            <button class="button-icon theme" onclick="onThemeToggle()">
+                <i class='theme-icon bx'></i>
+            </button>
+            <div class="search">
+                <button class="button-icon" onclick="onSearch()">
+                    <i class='bx bx-search'></i>
+                </button>
+                <div class="search-panel">
+                    <input type="text" placeholder="search..." onkeypress="onSearchEnter(event)">
+                    <!-- <i class='bx bx-search'></i> -->
+                </div>
+            </div>
+          
+            <button class="button-icon" title="Your Majesty RishikTheGreatest" onclick="window.location.href='./profile.html'">
+                <i class='bx bx-user'></i>
+            </button>
+            <button class="button-icon" title="Logout"  onclick="onLogout()">
+                <i class='bx bx-log-out'></i>
+            </button>
+        </div>
+    </nav> 
+</header>
+    <!--Middle Section-->
+    <main>
+        <label for="create-post"></label>
+    </main>
+    
+    <script type="text/javascript" src="../header.js"></script>
+</body>
+</html>
