@@ -5,7 +5,7 @@
 :root{
     --body-color: hsl(0, 0%, 90%);
     --font-color: hsl(0, 0%, 5%);
-    --nav-color: hsl(275, 100%, 25%);
+    --nav-color:hsl(213, 100%, 50%);
     --nav-font: hsl(0, 0%, 95%);
     --search-panel: hsl(0, 0%, 95%);
     --card-color: hsl(0, 0%, 100%);
@@ -14,7 +14,7 @@
 body[data-theme="dark"] {
     --body-color: hsl(0, 0%, 5%);
     --font-color: hsl(0, 0%, 95%);
-    --nav-color: hsl(275, 100%, 25%);
+    --nav-color: hsl(213, 100%, 50%);  
     --nav-font: hsl(0, 0%, 95%);
     --search-panel: hsl(0, 0%, 10%);
     --card-color: hsl(0, 0%, 15%);

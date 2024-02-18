@@ -7,7 +7,7 @@
     <!-- ===== CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../styles.css">
-
+    <link rel="stylesheet" href="../cards.css">
      <title>HobbyBazaar! The One Place To Share Your Hobbies!</title>
 </head>
 <body onload="onInit()">
@@ -21,8 +21,8 @@
         </div>
         
         <ul class="links">
-            <li><a href="project.html">My Projects</a></li>
-            <li><a href="group.html">My Groups</a></li>
+            <li><a href="./project.html">My Projects</a></li>
+            <li><a href="./group.html">My Groups</a></li>
             <li><a href="#">About Me</a></li>
         </ul>
         
@@ -39,8 +39,8 @@
                     <!-- <i class='bx bx-search'></i> -->
                 </div>
             </div>
-            <button class="button-icon" title="Anish Mahajan">
-                <i class='bx bx-user'></i>
+            <button class="button-icon" title="Anish Mahajan" href="./profile.html">
+                <a href="./profile.html" ><i class='bx bx-user' ></i></a>
             </button>
             <button class="button-icon" title="Logout"  onclick="onLogout()">
                 <i class='bx bx-log-out'></i>
@@ -48,7 +48,56 @@
         </div>
     </nav> 
     <main>
-        
+        <div class="card-container">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Oliver</h3>
+                    <p>He used to love chess</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <h3>Everyone likes to eat food</h3>
+                    <p>The only answer is yes</p> 
+                </div>
+            </div>
+           
+            <div class="card">
+                <div class="card-header">
+                    <h3>Horsies</h3>
+                    <p>H O R S E</p> 
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>Happiness</h3>
+                    <p>yaey :D</p> 
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <h3>Sadness</h3>
+                    <p>oh no :(</p> 
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>Music</h3>
+                    <p>Never gonna give you up never gonna let you down</p> 
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <h3>Summer</h3>
+                    <p>The sun is shining and it feels like an oven. Yay.</p> 
+                </div>
+            </div>
+        </div>
     </main>
     
     <script type="text/javascript" src="../header.js"></script>

@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- ===== CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="search.css">
 
      <title>HobbyBazaar! The One Place To Share Your Hobbies!</title>
 </head>
@@ -21,8 +22,8 @@
         </div>
         
         <ul class="links">
-            <li><a href="./project.html">My Projects</a></li>
-            <li><a href="./group.html">My Groups</a></li>
+            <li><a href="#">My Projects</a></li>
+            <li><a href="#">My Groups</a></li>
             <li><a href="#">About Me</a></li>
         </ul>
         
@@ -35,12 +36,12 @@
                     <i class='bx bx-search'></i>
                 </button>
                 <div class="search-panel">
-                    <input type="text" placeholder="search..." onkeypress="onSearchEnter(event)">
+                    <input type="text" placeholder="search...">
                     <!-- <i class='bx bx-search'></i> -->
                 </div>
             </div>
-            <button class="button-icon" title="Anish Mahajan" href="./profile.html">
-                <a href="./profile.html" ><i class='bx bx-user' ></i></a>
+            <button class="button-icon">
+                <i class='bx bx-user'></i>
             </button>
             <button class="button-icon" title="Logout"  onclick="onLogout()">
                 <i class='bx bx-log-out'></i>
@@ -48,9 +49,21 @@
         </div>
     </nav> 
     <main>
-        
+        <div class="search-container">
+            <h2 class="circle-search">Artistic People in My Area</h2>
+            <article class="search-result">
+                <h3 class="title">Vibhav Vadakapurapu</h3>
+                <p class="description">I am a 3rd year student at IIT Roorkee. I am a web developer and I love to play the guitar.</p>
+                <span class="url">http://www.google.com</span>
+            </article>
+            <article class="search-result">
+                <h3 class="title">Vibhav Vadakapurapu</h3>
+                <p class="description">I am a 3rd year student at IIT Roorkee. I am a web developer and I love to play the guitar.</p>
+                <span class="url">http://www.google.com</span>
+            </article>
+        </div>
     </main>
     
-    <script type="text/javascript" src="../header.js"></script>
+    <script type="text/javascript" src="header.js"></script>
 </body>
 </html>
