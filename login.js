@@ -18,7 +18,7 @@ const login = (email, password) => {
       break;
       case 'rishik.shukla86@masonohioschools.com': 
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
-      window.location.href = './rishik/home.html';
+      window.location.href = './rishik/profile.html';
       break;
       case 'prishaupadhyay6861@gmail.com': 
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
