@@ -34,7 +34,7 @@ const login = (email, password) => {
       break;
       case 'guest':
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
-      window.location.href = '/rishik/home.html';
+      window.location.href = '/rishik/profile.html';
       break;
     default:
       alert('Invalid email or password');
