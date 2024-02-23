@@ -7,8 +7,7 @@
     <!-- ===== CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="profile.css">
-
+    <link rel="stylesheet" href="../cards.css">
      <title>HobbyBazaar! The One Place To Share Your Hobbies!</title>
 </head>
 <body onload="onInit()">
@@ -18,12 +17,12 @@
         </button>
 
         <div class="branding">
-            <a href="home.html">HobbyBazaar</a>
+            <a href="#">HobbyBazaar</a>
         </div>
         
         <ul class="links">
-            <li><a href="project.html">My Projects</a></li>
-            <li><a href="group.html">My Groups</a></li>
+            <li><a href="./project.html">My Projects</a></li>
+            <li><a href="./group.html">My Groups</a></li>
             <li><a href="#">About Me</a></li>
         </ul>
         
@@ -40,8 +39,8 @@
                     <!-- <i class='bx bx-search'></i> -->
                 </div>
             </div>
-            <button class="button-icon" title="His Majesty RishikTheGreatest" href="profile.html">
-                <i class='bx bx-user'></i>
+            <button class="button-icon" title="Anish Mahajan" href="./profile.html">
+                <a href="./profile.html" ><i class='bx bx-user' ></i></a>
             </button>
             <button class="button-icon" title="Logout"  onclick="onLogout()">
                 <i class='bx bx-log-out'></i>
@@ -49,10 +48,59 @@
         </div>
     </nav> 
     <main>
-        
+        <div class="card-container">
+          
+            <div class="card">
+                <div class="card-header">
+                    <a href="oliver.html">
+                    <h3>Oliver</h3>
+                    <h4>Part of group: Ad Astra</h4>
+                    <p>He used to love chess, but he got bullied for it</p></a> 
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <h3>Bames Jond</h3>
+                    <h4>Part of group: Classical Movie </h4>
+                    <p>A thrilling film about burger king</p>
+                </div>
+            </div>
+           
+            <div class="card">
+                <div class="card-header">
+                    <h3>Everybody Wants to Rule chipotle</h3>
+                    <h4>Part of group: chipotle lovers 69</h4>
+                    <p>But they can't :'[</p> 
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>Alien</h3>
+                    <h4>Part of group: chipotle lovers 69 </h4>
+                    <p>Taco bell vs. chipotle</p> 
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <h3>Cocacola vs pepsico</h3>
+                    <h4>Part of group: Classical Movies </h4>
+                    <p>idk</p> 
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <h3>Fll so cool</h3>
+                    <h4>Part of group: Ad Astra </h4>
+                    <p>Let's go judges! Yall are awesome!</p> 
+                </div>
+            </div>
+        </div>
     </main>
     
     <script type="text/javascript" src="../header.js"></script>
 </body>
 </html>
-
