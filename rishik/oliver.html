@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,13 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- ===== CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="../styles.css">
 
      <title>HobbyBazaar! The One Place To Share Your Hobbies!</title>
 </head>
 <body onload="onInit()">
-    <nav>
+    <header> <nav>
         <button class="button-icon menu" onclick="onMenuToggle()">
             <i class='bx bx-menu'></i>
         </button>
@@ -36,11 +36,12 @@
                     <i class='bx bx-search'></i>
                 </button>
                 <div class="search-panel">
-                    <input type="text" placeholder="search...">
+                    <input type="text" placeholder="search..." onkeypress="onSearchEnter(event)">
                     <!-- <i class='bx bx-search'></i> -->
                 </div>
             </div>
-            <button class="button-icon">
+          
+            <button class="button-icon" title="Your Majesty RishikTheGreatest" onclick="window.location.href='./prototypeprof.html'">
                 <i class='bx bx-user'></i>
             </button>
             <button class="button-icon" title="Logout"  onclick="onLogout()">
@@ -48,22 +49,21 @@
             </button>
         </div>
     </nav> 
+    <script type="text/javascript" src="../header.js"></script></header>
+    
     <main>
-        <div class="search-container">
-            <h2 class="circle-search">Artistic People in My Area</h2>
-            <article class="search-result">
-                <h3 class="title">Vibhav Vadakapurapu</h3>
-                <p class="description">I am a 3rd year student at IIT Roorkee. I am a web developer and I love to play the guitar.</p>
-                <span class="url">http://www.google.com</span>
-            </article>
-            <article class="search-result">
-                <h3 class="title">Vibhav Vadakapurapu</h3>
-                <p class="description">I am a 3rd year student at IIT Roorkee. I am a web developer and I love to play the guitar.</p>
-                <span class="url">http://www.google.com</span>
-            </article>
-        </div>
+        
     </main>
     
     <script type="text/javascript" src="header.js"></script>
+</body>
+</html>
+
+<html>
+<head>
+    <title>My YouTube Video</title>
+</head>
+<body>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/u41PgH5SjkM" frameborder="0" allowfullscreen></iframe>
 </body>
 </html>

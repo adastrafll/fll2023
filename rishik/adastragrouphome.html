@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="messagescss.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ===== CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../styles.css">
+
+     <title>HobbyBazaar! The One Place To Share Your Hobbies!</title>
+</head>
+<body onload="onInit()">
+    <nav>
+        <button class="button-icon menu" onclick="onMenuToggle()">
+            <i class='bx bx-menu'></i>
+        </button>
+
+        <div class="branding">
+            <a href="./home.html">HobbyBazaar</a>
+        </div>
+        
+        <ul class="links">
+            <li><a href="./project.html">My Projects</a></li>
+            <li><a href="./group.html">My Groups</a></li>
+            <li><a href="./messages.html">Messages</a></li>
+        </ul>
+        
+        <div class="buttons">
+            <button class="button-icon theme" onclick="onThemeToggle()">
+                <i class='theme-icon bx'></i>
+            </button>
+            <div class="search">
+                <button class="button-icon" onclick="onSearch()">
+                    <i class='bx bx-search'></i>
+                </button>
+                <div class="search-panel">
+                    <input type="text" placeholder="search..." onkeypress="onSearchEnter(event)">
+                    <!-- <i class='bx bx-search'></i> -->
+                </div>
+            </div>
+          
+            <button class="button-icon" title="Your Majesty RishikTheGreatest" onclick="window.location.href='./profile.html'">
+                <i class='bx bx-user'></i>
+            </button>
+            <button class="button-icon" title="Logout"  onclick="onLogout()">
+                <i class='bx bx-log-out'></i>
+            </button>
+        </div>
+    </nav> 
+        
+    </main>
+    
+    <script type="text/javascript" src="../header.js"></script>
+</body>
+</html>
+
+
+</header>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="left">
+                <div class="top">
+                    <input type="text" placeholder="Search" />
+                    <a href="javascript:;" class="search"></a>
+                </div>
+                <ul class="people">
+                    <li class="person" data-chat="person1">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/382994/thomas.jpg" alt="" />
+                        <span class="name">Adastra</span>
+                        <span class="time">2:09 PM</span>
+                        <span class="preview">You:</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="top"><span>To: <span class="name">Adastra</span></span></div>
+                <div class="chat" data-chat="person1">
+                    <div class="conversation-start">
+                        <span>Today, 6:48 AM</span>
+                    </div>
+                    <div class="bubble you">
+                        Hello,
+                    </div>
+                    <div class="bubble you">
+                        it's me.
+                    </div>
+                    <div class="bubble you">
+                        I was wondering... 
+                    </div>
+                    <div class="bubble me">
+                        What?
+                    </div>
+                    <div class="bubble you">
+                        Which scene are we animating next?
+                    </div>
+                    <div class="bubble me">
+                        I don't know yet.
+                    </div>
+                    <div class="conversation-start">
+                        <span>Today, 2:09 PM</span>
+                    </div>
+                    <div class="bubble me">
+                        I got it the info for both projects, Anish.
+                    </div>
+                    <div class="bubble me">
+                        For Oliver were doing music and maybe some voice overs.
+                    </div>
+                    <div class="bubble me">
+                        You might be able to get ur guitar out. It's a good opportunity to show off your skills.
+                    </div>
+                    <div class="bubble me">
+                        What?
+                    </div>
+                    <div class="bubble you">
+                        Which scene are we animating next?
+                    </div>
+                    <div class="bubble me">
+                        I don't know yet.
+                    </div>
+                </div>
+                <div class="chat" data-chat="person2">
+                    <div class="conversation-start">
+                        <span>Dec 8, 2023</span>
+                    </div>
+                    <div class="bubble you">
+                        Welcome to the Adastra Upadates!
+                    </div>
+                    <div class="bubble you">
+                        Let's get straight to it.  
+                        We need to start animating the first scene.
+                        We also musicians and people that are comfortable with voice acting.
+                        You can DM or message me here if u are interested.
+                        Remember,
+                    </div>
+                    <div class="bubble me">
+                        Can I do the music? ~ Anish
+                    </div>
+                </div>
+                <div class="chat" data-chat="person3">
+                    <div class="conversation-start">
+                        <span>Today, 3:38 AM</span>
+                    </div>
+                    <div class="bubble me">
+                        Are you doing the script?
+                    </div>
+                    <div class="bubble you">
+                        yeah, almost done with it.
+                    </div>
+                   
+                </div>
+                <div class="chat" data-chat="person4">
+                    <div class="conversation-start">
+                        <span>Yesterday, 4:20 PM</span>
+                    </div>
+                    <div class="bubble me">
+                        I made the rough character designs.
+                    </div> 
+                    <div class="bubble you">
+                        Nice! Now we need to draw the final ones.
+                    </div>
+                  
+                </div>
+                <div class="chat" data-chat="person5">
+                    <div class="conversation-start">
+                        <span>Today, 6:28 AM</span>
+                    </div>
+                    <div class="bubble you">
+                        Wasup
+                    </div>
+                    <div class="bubble you">
+                        Wasup
+                    </div>
+                    <div class="bubble you">
+                       Cool.
+                    </div>
+    
+                </div>
+                <div class="chat" data-chat="person6">
+                    <div class="conversation-start">
+                        <span>Monday, 1:27 PM</span>
+                    </div>
+                    
+                    <div class="bubble me">
+                        Drake?
+                    </div>
+                    <div class="bubble me">
+                        Why aren't you answering?
+                    </div>
+                    <div class="bubble you">
+                        i love animating!
+                    </div>
+                    <div class="bubble me">
+                        ok buddy
+                    </div>
+                    
+                </div>
+                <div class="write">
+                    <a href="javascript:;" class="write-link attach"></a>
+                    <input type="text" />
+                    <a href="javascript:;" class="write-link smiley"></a>
+                    <a href="javascript:;" class="write-link send"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="messages.js"></script>
+</body>
+</html>
