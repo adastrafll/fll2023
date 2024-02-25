@@ -7,7 +7,6 @@
     <!-- ===== CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="search.css">
 
      <title>HobbyBazaar! The One Place To Share Your Hobbies!</title>
 </head>
@@ -22,8 +21,8 @@
         </div>
         
         <ul class="links">
-            <li><a href="#">My Projects</a></li>
-            <li><a href="#">My Groups</a></li>
+            <li><a href="project.html">My Projects</a></li>
+            <li><a href="group.html">My Groups</a></li>
             <li><a href="#">About Me</a></li>
         </ul>
         
@@ -40,30 +39,34 @@
                     <!-- <i class='bx bx-search'></i> -->
                 </div>
             </div>
-            <button class="button-icon">
+            <button class="button-icon" title="Anish Mahajan">
                 <i class='bx bx-user'></i>
-            </button>
-            <button class="button-icon" title="Logout"  onclick="onLogout()">
-                <i class='bx bx-log-out'></i>
             </button>
         </div>
     </nav> 
     <main>
-        <div class="search-container">
-            <h2 class="circle-search">Artistic People in My Area</h2>
-            <article class="search-result">
-                <h3 class="title">Vibhav Vadakapurapu</h3>
-                <p class="description">I am a 3rd year student at IIT Roorkee. I am a web developer and I love to play the guitar.</p>
-                <span class="url">http://www.google.com</span>
-            </article>
-            <article class="search-result">
-                <h3 class="title">Vibhav Vadakapurapu</h3>
-                <p class="description">I am a 3rd year student at IIT Roorkee. I am a web developer and I love to play the guitar.</p>
-                <span class="url">http://www.google.com</span>
-            </article>
-        </div>
+        <header>
+            <h1>Search Results</h1>
+        </header>
+        
+        <div class="container">
+            <div class="result">
+                <h2>Search Result 1</h2>
+                <p>This is some information about the first search result.</p>
+                <p>More details or snippets can be included here.</p>
+            </div>
+        
+            <div class="result">
+                <h2>Search Result 2</h2>
+                <p>This is some information about the second search result.</p>
+                <p>More details or snippets can be included here.</p>
+            </div>
+        
     </main>
     
     <script type="text/javascript" src="header.js"></script>
 </body>
 </html>
+
+
+
