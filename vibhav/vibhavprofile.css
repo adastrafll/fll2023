@@ -193,7 +193,7 @@ a {
   }
 }
 .rightside{
-    margin-left: 600px;
+    margin-left: 800px;
     margin-top: -530px;
     box-sizing: border-box;
     color: var(--font-color);
@@ -204,4 +204,10 @@ a {
 .rightside h4{
     font-weight: 60;
         margin-bottom: 5px;
+    }
+    .far_rightside{
+      margin-left: 400px;
+      margin-top: -725px;
+      box-sizing: border-box;
+      color: var(--font-color);
     } 
