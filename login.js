@@ -14,7 +14,7 @@ const login = (email, password) => {
   switch(email){
     case 'anishhaha3@gmail.com': 
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
-      window.location.href = './anish/home.html';
+      window.location.href = './anish/profile.html';
       break;
       case 'rishik.shukla86@masonohioschools.com': 
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
@@ -30,7 +30,7 @@ const login = (email, password) => {
       break;
       case 'vibhav.vadakapurapu75@masonohioschools.com': 
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
-      window.location.href = '/vibhav/home.html';
+      window.location.href = '/vibhav/vibhavprofile.html';
       break;
       case 'akshajkulkarni2022@gmail.com': 
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
