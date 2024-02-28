@@ -22,15 +22,15 @@ const login = (email, password) => {
       break;
       case 'prishaupadhyay6861@gmail.com': 
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
-      window.location.href = './prisha/home.html';
+      window.location.href = './prisha/prisha.html';
       break;
       case 'adi.saraswat@gmail.com': 
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
-      window.location.href = './adi/home.html';
+      window.location.href = './adi/profile.html';
       break;
       case 'vibhav.vadakapurapu75@masonohioschools.com': 
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
-      window.location.href = '/anish/home.html';
+      window.location.href = '/vibhav/home.html';
       break;
       case 'akshajkulkarni2022@gmail.com': 
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
