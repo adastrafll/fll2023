@@ -8,7 +8,6 @@
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="search.css">
-
      <title>HobbyBazaar! The One Place To Share Your Hobbies!</title>
 </head>
 <body onload="onInit()">
@@ -22,8 +21,8 @@
         </div>
         
         <ul class="links">
-            <li><a href="#">My Projects</a></li>
-            <li><a href="#">My Groups</a></li>
+            <li><a href="project.html">My Projects</a></li>
+            <li><a href="group.html">My Groups</a></li>
             <li><a href="#">About Me</a></li>
         </ul>
         
@@ -40,25 +39,35 @@
                     <!-- <i class='bx bx-search'></i> -->
                 </div>
             </div>
-            <button class="button-icon">
+            <button class="button-icon" title="Anish Mahajan">
                 <i class='bx bx-user'></i>
-            </button>
-            <button class="button-icon" title="Logout"  onclick="onLogout()">
-                <i class='bx bx-log-out'></i>
             </button>
         </div>
     </nav> 
     <main>
+        <header>
+            <h1>Search Results</h1>
         <div class="search-container">
             <h2 class="circle-search">Artistic People in My Area</h2>
             <article class="search-result">
-                <h3 class="title">Vibhav Vadakapurapu</h3>
-                <p class="description">I am a 3rd year student at IIT Roorkee. I am a web developer and I love to play the guitar.</p>
+                <h3 class="title"><a  href="./rishik/profile.html">Rishik Shukla</a></h3>
+                <p class="description">I am love web design. I am 7th grade have art as my hobby</p>
+                <p style="font-weight: normal;">Hobby : ART!!!!</p>
+                <p style="font-weight: normal;">Ranking : 5.00</p>    
                 <span class="url">http://www.google.com</span>
             </article>
             <article class="search-result">
-                <h3 class="title">Vibhav Vadakapurapu</h3>
-                <p class="description">I am a 3rd year student at IIT Roorkee. I am a web developer and I love to play the guitar.</p>
+                <h3 class="title"><a  href="./rishik/profile.html">Vibhav Vadakapurapu</a></h3>
+                <p class="description">I love drawing more than life.</p>
+                <p style="font-weight: normal;">Hobby : Pencil Art</p>
+                <p style="font-weight: normal;">Ranking : 4.95</p>    
+                <span class="url">http://www.google.com</span>
+            </article>
+            <article class="search-result">
+                <h3 class="title"><a  href="./rishik/profile.html">Rishik Shukla</a></h3>
+                <p class="description">I am a 3rd year student at IIT Roorkee. I am a web developer and I love to do art.</p>
+                <p style="font-weight: normal;">Hobby : Pencil Art</p>
+                <p style="font-weight: normal;">Ranking : 4.95</p>    
                 <span class="url">http://www.google.com</span>
             </article>
         </div>
@@ -67,3 +76,6 @@
     <script type="text/javascript" src="header.js"></script>
 </body>
 </html>
+
+
+

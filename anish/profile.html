@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- ===== CSS ===== -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@famish profile</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- CSS -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../cards.css">
-    <link rel="stylesheet" href="../rishik/prototypeprof.css">
-     <title>HobbyBazaar! The One Place To Share Your Hobbies!</title>
-</head>
-<body onload="onInit()">
+    <link rel="stylesheet" href="profile.css" />
+  </head>
+  <body>
+    <div class="header__wrapper">
+<header>
     <nav>
         <button class="button-icon menu" onclick="onMenuToggle()">
             <i class='bx bx-menu'></i>
         </button>
 
         <div class="branding">
-            <a href="#">HobbyBazaar</a>
+            <a href="home.html">HobbyBazaar</a>
         </div>
         
         <ul class="links">
-            <li><a href="./project.html">My Projects</a></li>
+            <li><a href="./prototypeprof.html">My Projects</a></li>
             <li><a href="./group.html">My Groups</a></li>
-            <li><a href="#">About Me</a></li>
+            <li><a href="./messages.html">Messages</a></li>
         </ul>
         
         <div class="buttons">
@@ -36,19 +42,21 @@
                     <i class='bx bx-search'></i>
                 </button>
                 <div class="search-panel">
-                    <input type="text" placeholder="search...">
+                    <input type="text" placeholder="search..." onkeypress="onSearchEnter(event)">
                     <!-- <i class='bx bx-search'></i> -->
                 </div>
             </div>
-            <button class="button-icon" title="Anish Mahajan" href="./profile.html">
-               <a href="./profile.html" ><i class='bx bx-user' ></i></a>
+          
+            <button class="button-icon" title="Your Majesty RishikTheGreatest" onclick="window.location.href='./prototypeprof.html'">
+                <i class='bx bx-user'></i>
             </button>
             <button class="button-icon" title="Logout"  onclick="onLogout()">
                 <i class='bx bx-log-out'></i>
             </button>
         </div>
     </nav> 
-   <main>
+    <script type="text/javascript" src="../header.js"></script>
+
     <br>
     <br>
     <br>
@@ -56,24 +64,24 @@
       <div class="cols__container">
         <div class="left__col">
           <div class="img__container">
-            <img src="rishik_profpic.jpg" alt="Rishik Shukla" />
+            <img src="bengals.jpg" alt="Rishik Shukla" />
             <span></span>
           </div>
-          <h2>Rishik Shukla</h2>
-          <p>that_guy</p>
+          <h2>Anish Mahajan</h2>
+          <p>catch_dimes</p>
           <br>
           <p>Description<br>
-        Very cool and popular:]</p>
+        Smallest Adastra Member!</p>
 
           <ul class="about">
-            <li><span>Music and Chess</span>Specializations</li>
-            <li><span>5</span>Groups</li>
-            <li><span>42</span>Projects</li>
+            <li><span>Guitar and Legos</span>Specializations</li>
+            <li><span>3</span>Groups</li>
+            <li><span>6</span>Projects</li>
           </ul>
 
           <div class="content">
             <p>
-              Me gusta chipotle y chess. I am a very cool and popular guy. I can speak about stuff. I am also the developer of this website. 
+              Small, slow boy with a little too much energy. I love to play guitar and build legos. I am a part of the Adastra group and I am the smallest member. I am also a part of the music club and the chess club. I have 6 projects and 3 groups. I am a very active member of the community and I love to help out. I am a very friendly person and I love to make new friends. I am a very active member of the community and I love to help out. I am a very unfriendly person and I love to make new friends. 
             </p>
 
             <ul>
@@ -90,15 +98,35 @@
     </div>
 </header>
 <div class="rightside">
-    <button class="Anish">
-        <h2>Anish</h2>
-        <h4>monkey_boy</h4>
-    </button>
-</div>
-
-   </main>
-    
-    <script type="text/javascript" src="../header.js"></script>
-</body>
+    <a href="project.html"><h1>Featured Projects</h1></a>
+    <br>
+    <br>
+    <div class="project__container">
+      <div class="project__card1">
+        <a href="home.html"><img src="../rishik/Oliver.jpg" alt="Project 1" height=200px width=200px/></a>
+        <h3>Oliver</h3>
+        <p>He used to love chess,<br> but he got bullied for it!<br> What will happen to him?</p>
+      </div>
+      <div class="project__card2">
+        <a href="home.html"><img src="chipotle-1-logo.png" alt="Project 2" height=200px width=200px/></a>
+        <h3>Why Chipotle is the best</h3>
+        <p>A thrilling film about burger king<br> and his journey to the top!</p>
+        </div>  
+        <div class="far_rightside">
+            <a href="group.html"><h1>catch_dimes's groups</h1></a>
+            <br>
+            <br>
+            <div class="group__container">
+                <div class="group__card1">
+                <a href="home.html"><img src="../vibhav/unnamed.jpg" alt="Group 1" height=200px width=200px/></a>
+                <h3>Ad Astra</h3>
+                <p>Your local geniuses-in-the-making</p>
+                </div>
+                <div class="group__card2">
+                <a href="home.html"><img src="guitar.png" alt="Group 2" height=200px width=200px/></a>
+                <h3>Music Club</h3>
+                <p>Join the music club to<br> play music with other people!</p>
+                </div>
+            </div>
+  </body>
 </html>
-

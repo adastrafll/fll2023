@@ -14,7 +14,7 @@ const login = (email, password) => {
   switch(email){
     case 'anishhaha3@gmail.com': 
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
-      window.location.href = './anish/home.html';
+      window.location.href = './anish/profile.html';
       break;
       case 'rishik.shukla86@masonohioschools.com': 
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
@@ -22,17 +22,21 @@ const login = (email, password) => {
       break;
       case 'prishaupadhyay6861@gmail.com': 
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
-      window.location.href = './prisha/home.html';
+      window.location.href = './prisha/prisha.html';
+      break;
+      case 'adi.saraswat@gmail.com': 
+      localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
+      window.location.href = './adi/profile.html';
       break;
       case 'vibhav.vadakapurapu75@masonohioschools.com': 
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
-      window.location.href = '/anish/home.html';
+      window.location.href = '/vibhav/vibhavprofile.html';
       break;
       case 'akshajkulkarni2022@gmail.com': 
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
       window.location.href = '/anish/home.html';
       break;
-      case 'guest':
+      case 'guest@guest.com':
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
       window.location.href = '/rishik/profile.html';
       break;

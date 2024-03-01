@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ===== CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../cards.css">
+     <title>HobbyBazaar! The One Place To Share Your Hobbies!</title>
+</head>
+<body onload="onInit()">
+    <nav>
+        <button class="button-icon menu" onclick="onMenuToggle()">
+            <i class='bx bx-menu'></i>
+        </button>
+
+        <div class="branding">
+            <a href="#">HobbyBazaar</a>
+        </div>
+        
+        <ul class="links">
+            <li><a href="project.html">My Projects</a></li>
+            <li><a href="group.html">My Groups</a></li>
+            <li><a href="#">About Me</a></li>
+        </ul>
+        
+        <div class="buttons">
+            <button class="button-icon theme" onclick="onThemeToggle()">
+                <i class='theme-icon bx'></i>
+            </button>
+            <div class="search">
+                <button class="button-icon" onclick="onSearch()">
+                    <i class='bx bx-search'></i>
+                </button>
+                <div class="search-panel">
+                    <input type="text" placeholder="search...">
+                    <!-- <i class='bx bx-search'></i> -->
+                </div>
+            </div>
+            <button class="button-icon" title="Anish Mahajan" href="profile.html">
+                <i class='bx bx-user'></i>
+            </button>
+            <button class="button-icon" title="Logout"  onclick="onLogout()">
+                <i class='bx bx-log-out'></i>
+            </button>
+        </div>
+    </nav> 
+    <main>
+        <div class="card-container">
+            <a href="../rishik/adastragrouphome.html"><div class="card">
+                <div class="card-header">
+                    <h3>Adastra <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 48 48">
+                        <circle cx="24" cy="24" r="20" fill="#4dd0e1"></circle><path fill="#fff" d="M22.491,30.69c-0.576,0-1.152-0.22-1.591-0.659l-6.083-6.084c-0.879-0.878-0.879-2.303,0-3.182 c0.878-0.879,2.304-0.879,3.182,0l6.083,6.084c0.879,0.878,0.879,2.303,0,3.182C23.643,30.47,23.067,30.69,22.491,30.69z"></path><path fill="#fff" d="M22.491,30.69c-0.576,0-1.152-0.22-1.591-0.659c-0.879-0.878-0.879-2.303,0-3.182l9.539-9.539 c0.878-0.879,2.304-0.879,3.182,0c0.879,0.878,0.879,2.303,0,3.182l-9.539,9.539C23.643,30.47,23.067,30.69,22.491,30.69z"></path>
+                        </svg></h3><h3 class="people">People:6</h3>
+                    <p>The people behind HobbyBazaar!</p>
+                    <img src="../rishik/adastragroupphoto.png" alt="group1pic" height="80px" width="80px" style="margin-left: 0px; ">
+                </div>
+            </div></a>
+            
+            <div class="card">
+                <div class="card-header">
+                    <h3>chipotle lovers 69</h3>
+                    <h3 class="people">People:301</h3>
+                    <p>Chipotle is Life. This is a song we made:<br>It's about Chipotle, It's about Sour Cream,<br> and So on ...</p>
+                    <img src="../rishik/ilovechipotle.jpg" alt="group1pic" height="80px" width="80px" style="margin-left: 150px; margin-top: -25px;"> 
+                </div>
+            </div>
+           
+            <div class="card">
+                <div class="card-header">
+                    <h3>Classical Movies</h3>
+                    <h3 class="people">People:42</h3>
+                    <p>The movies of the 80's are fire. Here you will find recreations of the works of Arthur Conan Doyle+more!</p>
+                    <img src="../rishik/classicmovsgroup.jpg" alt="group1pic" height="80px" width="80px" style="margin-left: 150px; margin-top: -30px; "> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script type="text/javascript" src="../header.js"></script>
+</body>
+</html>
