@@ -22,6 +22,15 @@ const onSearchEnter = (e) => {
     if (e.key === 'Enter') {
         const search = document.querySelector('.search-panel');
         search.classList.remove('active');
+
+const onSearchEnter = (e) => {
+    if (e.key === 'Enter') {
+        if (e.target.value === 'Music') {
+            window.location.href = `/search.html?query=${e.target.value}`;
+        }
+    }
+}
+        
         window.location.href = `/search.html?query=${e.target.value}`;
     }
 }
