@@ -36,7 +36,7 @@ const login = (email, password) => {
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
       window.location.href = '/anish/home.html';
       break;
-      case 'guest@guest.com':
+      case 'guest':
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
       window.location.href = '/rishik/profile.html';
       break;
