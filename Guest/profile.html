@@ -28,9 +28,9 @@
         </div>
         
         <ul class="links">
-            <li><a href="./project.html">My Projects</a></li>
-            <li><a href="./group.html">My Groups</a></li>
-            <li><a href="./messages.html">Messages</a></li>
+            <li><a href="./project.html"></a></li>
+            <li><a href="./group.html"></a></li>
+            <li><a href="./messages.html"></a></li>
         </ul>
         
         <div class="buttons">
@@ -55,6 +55,11 @@
             </button>
         </div>
     </nav> 
+    <style>
+      .h1font{
+          font-weight: 30;
+      }
+    </style>
     <script type="text/javascript" src="../header.js"></script>
 
     <br>
@@ -64,7 +69,7 @@
       <div class="cols__container">
         <div class="left__col">
           <div class="img__container">
-            <img src="rishik_profpic.jpg" alt="Guest" />
+            <img src="Fllpeople.jpeg" alt="Guest" />
             <span></span>
           </div>
           <h2>Guest</h2>
@@ -97,41 +102,75 @@
       </div>
     </div>
 </header>
-<div class="rightside">
-    <a href="project.html"><h1>Featured Projects</h1></a>
-    <br>
-    <br>
-    <div class="project__container">
-      <div class="project__card1">
-        <a href="home.html"><img src="Oliver.jpg" alt="Project 1" height=200px width=200px/></a>
-        <h3>Oliver</h3>
-        <p>He used to love chess,<br> but he got bullied for it!<br> What will happen to him?</p>
-      </div>
-      <div class="project__card2">
-        <a href="home.html"><img src="BamesJond.jpg" alt="Project 2" height=200px width=200px/></a>
-        <h3>Bames Jond</h3>
-        <p>A thrilling film about burger king<br> and his journey to the top!</p>
-      </div>  
-    </div>
-</div>
 
-<div class="far_rightside">
-    <a href="group.html"><h1>guest groups</h1></a>
-    <br>
-    <br>
-    <div class="group__container">
-        <div class="group__card1">
-            <a href="home.html"><img src="Fllpeople.jpeg".jpg" alt="Group 1" height=200px width=200px/></a>
-            <h3>Teams</h3>
-            <p>All the teams, all the times</p>
-        </div>
-        <div class="group__card2">
-            <a href="home.html"><img src="Fllpeople.jpeg" alt="Group 2" height=200px width=200px/></a>
-            <h3>FLL people</h3>
-            <p>We are<br> THE FLL PEOPLE!</p>
-        </div>
-    </div>
+<div class="rightside">
+  <br>
+  <br>
+  <br>
+  <h1 class="h1font">Welcome to the wonderful world of HobbyBazaar! Start to explore the world of hobbies by clicking on the profile to get a view from a user's standpoint!</h1>
 </div>
-            </div>
+<br>
+<br>
+<style>
+  .container {
+    position: relative;
+    width: 30%;
+    margin-left: 700px;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 20%;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    margin: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.5;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: var(--nav-color);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    opacity:.6;
+    border-radius: 50%;
+  }
+  .text:hover{
+    opacity:1;
+    border-radius: 0;
+    transition: 1s ease; 
+  }
+  </style>
+  </head>
+  <body>
+  
+  <div class="container">
+    <img src="../rishik/rishik_profpic.jpg" alt="Avatar" class="image">
+  <a href="../rishik/profile.html"><div class="middle">
+      <div class="text">Rishik Shukla</div>
+    </div>
+  </a>
+  </div>
   </body>
 </html>
