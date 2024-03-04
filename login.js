@@ -30,15 +30,15 @@ const login = (email, password) => {
       break;
       case 'vibhav.vadakapurapu75@masonohioschools.com': 
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
-      window.location.href = '/vibhav/vibhavprofile.html';
+      window.location.href = '/vibhav/profile.html';
       break;
       case 'akshajkulkarni2022@gmail.com': 
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
       window.location.href = '/anish/home.html';
       break;
-      case 'guest@guest.com':
+      case 'guest':
       localStorage.setItem('user', JSON.stringify({ email, name: 'Anish Mahajan' }));
-      window.location.href = '/rishik/profile.html';
+      window.location.href = '/guest/profile.html';
       break;
     default:
       alert('Invalid email or password');
