@@ -44,5 +44,5 @@ const setTheme = (theme) => {
 };
 const onLogout = () => {
     localStorage.removeItem('user');
-    window.location.href = './index.html';
+    window.location.href = '../index.html';
 }
