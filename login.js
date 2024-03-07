@@ -46,5 +46,5 @@ const login = (email, password) => {
   return false;
 }
 const onLogin = () => {
-  window.location.href = '/login.html';
+  window.location.href = "login.html";
 }
