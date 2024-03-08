@@ -205,3 +205,9 @@ a {
     font-weight: 60;
     margin-bottom: 5px;
 }
+.far-rightside{
+    margin-left: 350px;
+    margin-top: -670px;
+    box-sizing: border-box;
+    color: var(--font-color);
+}
