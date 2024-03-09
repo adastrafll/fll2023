@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Adastra Homepage</title>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="messagescss.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../cards.css">
 </head>
 <header>
     <!DOCTYPE html>
@@ -69,6 +70,58 @@
 
 
 </header>
+<style>
+  .container {
+margin-top: 0px;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 40%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 20%;
+    margin-top: 60px;
+    margin-left: 30px;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  
+  .container:hover .image {
+    opacity: 0.5;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: var(--nav-color);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    opacity:.6;
+    border-radius: 50%;
+  }
+  .text:hover{
+    opacity:1;
+    border-radius: 0;
+    transition: 1s ease; 
+  }
+  </style>
 <body>
     <div class="wrapper">
         <div class="container">
@@ -83,16 +136,21 @@
                         <span class="name">Adastra</span>
                         <span class="time">2:09 PM</span>
                         <span class="preview">You:</span>
-                    </li>
-                    <h1>Projects:</h1>
-                    <br>
-                    <br>
-                    <a href="oliver.html">       Oliver<br>     Completed <i class="fa-solid fa-check-to-slot"></i></a>
-                    <br>
-                    <br>
+                    </li><div class="card1">
+                        <div class="card-header1">
+                            <h3 title="verified">Oliver <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="m2.394 13.742 4.743 3.62 7.616-8.704-1.506-1.316-6.384 7.296-3.257-2.486zm19.359-5.084-1.506-1.316-6.369 7.279-.753-.602-1.25 1.562 2.247 1.798z" style="color:green"></path></svg><br>People:6</h3>
+                            <p>A boy who loved chess but got bullied for it</p>
+                            <div class="container">
+                                <img src="Oliver.jpg" alt="Avatar" class="image">
+                              <a href="../rishik/oliver.html"><div class="middle">
+                                  <div class="text">Oliver</div>
+                                </div>
+                        </div>
+                    </div>
 
                 </ul>
             </div>
+
             <div class="right">
                 <div class="top"><span>To: <span class="name">Adastra</span></span></div>
                 <div class="chat" data-chat="person1">
